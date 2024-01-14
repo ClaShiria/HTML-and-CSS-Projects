@@ -3,13 +3,15 @@
   <head>
      <title>Beadred dragons color show</title>
 	 <meta charset="utf-8">
+	 <link rel="stylesheet" href="./css/one_page_website.css">
+	 <link rel="stylesheet" href="./css/animations.css">
   </head>
   <body>
   
    <!--NAV-->
-   <div>
-    <div>
-	  <ul>
+   <div class="wrap">
+    <div class="menu-container">
+      <ul class="menu">
 	    <a href="#home" id="link"><li>HOME</li></a>
 		<a href="gallery"><li>GALLERY</li></a>
 		<a href="#contact"><li>RESERVATIONS</li></a>
@@ -20,8 +22,8 @@
   
   <!--HOME-->
   <div id="home">
-    <div>
-	  <div>
+    <div class="container">
+     <div class="text-center">
 	    <span>Bearded Dragon color show in your city.<br> If you like to see dragons on your own use form bellow and we will send you all details by message.<br>
 		 There is a wideo to schow you one of the we most stuning dragons ever</span>
 		<a href="https://www.youtube.com/shorts/DO-5vtJKl7c">Bearded Dragons</a>
@@ -37,34 +39,34 @@
 	  <div>
 	  
 	    <!--PHOTO CONTAINER1-->
-		<div>
-		  <div>
-		   <img src="https://raw.githubusercontent.com/ClaShiria/HTML-and-CSS-Projects/main/dragon_1.jpg" alt="Dragons 1">
+		<div class="photo-container">
+		   <div class="photo">
+		   <img src="C:\Users\klaud\Desktop\One-Page Website\images\dragon_1.jpg" alt="Dragons 1">
 		    <div>
 			  <h3>Click to Enlarge</h3>
 			  <p>We have several space launches departing daily.</p>
-			</div>
+			</div class="photo-overlay">
 		  </div>
         </div>
 		<!--END PHOTO CONTAINER 1-->
 		
 		  <!--PHOTO CONTAINER2-->
-		<div>
-		  <div>
-		   <img src="https://raw.githubusercontent.com/ClaShiria/HTML-and-CSS-Projects/main/dragon_2.jpg" alt="Dragons 2">
+		<div class="photo-container">
+		   <div class="photo">
+		   <img src="C:\Users\klaud\Desktop\One-Page Website\images\dragon_2.jpg" alt="Dragons 2">
 		    <div>
 			  <h3>Click to Enlarge</h3>
 			  <p>We have several space launches departing daily.</p>
-			</div>
+			</div class="photo-overlay">
 		  </div>
         </div>
 		<!--END PHOTO CONTAINER 2-->
 		
 		  <!--PHOTO CONTAINER3-->
-		<div>
-		  <div>
-		   <img src="https://raw.githubusercontent.com/ClaShiria/HTML-and-CSS-Projects/main/dragon_3.jpg" alt="Dragons 3">
-		    <div>
+		<div class="photo-container">
+		   <div class="photo">
+		   <img src="C:\Users\klaud\Desktop\One-Page Website\images\dragon_3.jpg" alt="Dragons 3">
+		    <div class="photo-overlay">
 			  <h3>Click to Enlarge</h3>
 			  <p>We have several space launches departing daily.</p>
 			</div>
@@ -81,9 +83,10 @@
  <!--RSVP-->
  <section>
   <div id="contact">
-   <div>
-    <h1>Reservations</h1>
-	<div>
+  <div class="container">
+   <div class="heading-padding">
+     <h1 class="heading-padding">Reservations</h1>
+	 <div class="reservation">
 	  <h2><span>If you like to be a part of that show fell free to come.</span>
 	    <br />Reserve your space today!
 	  </h2>
@@ -97,20 +100,21 @@
 		  <div class="form-spacer">
 		    <label class="terms">Terms and Conditions</label>
 		  </div>
-        <div>
-		  <input type="submit" Value="Sumbit">
-		 </div>
+            <div class="submit">
+			  <input type="submit" value="Submit">
+			</div>
 		</form>
 	   </div>
 	   </div>
 	  </div>
 	 </div>
+	 </div>
 	</section>
 	<!--END RSVP-->
 	
 	<!--FOOTER-->
-	<div>
-	   www.dragonsarelovely.org &nbsp;|&nbsp; &copy; 2023
+	<div id="footer">
+	   www.dragonsarelovely.org &nbsp;|&nbsp; &copy; 2024
 	</div>
 	<!--END FOOTER-->
 	
